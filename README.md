@@ -1,3 +1,3 @@
 # CapstonProject
 
-![1](image/1.png)
+![1](C:\Users\Telos PC_11\Desktop\imag\1.png)
