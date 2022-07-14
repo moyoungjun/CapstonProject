@@ -1,0 +1,79 @@
+.box1{
+    margin-top: 1%;
+    padding: 50px 0 30px 0;
+}
+
+.select-box{
+  margin: 1%;
+}
+
+.text-input{
+    width: 50%;
+    outline: 0px;
+    height: 42px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    border-radius: 25px;
+}
+.select-box select{
+    padding: 0 18%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.text-area{
+    width: 50%;
+    min-height: 390px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.wr-button2{
+    padding-bottom: 1%;
+    padding-right: 37.5%;
+
+}
+
+.submit-button{
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 0px black;
+    background-color: rgb(139, 173, 206);
+    color: white;
+    font-size: 500;
+}
+
+.submit-button:hover {
+  color: white;
+  background-color: rgb(40, 91, 143);
+}
+
+
+@media screen and (max-width: 500px ) {
+    .box1 {
+        margin-top: 10%;
+    }
+    .select-box {
+        width: 100%;
+    }
+    .text-input {
+        width: 80%;
+        text-align: center;
+    }
+    .text-area {
+        width: 80%;
+        text-align: center;
+    }
+    .select-box select{
+        padding: 0 18%;
+        border-radius: 25px;
+        background-color: white;
+    }
+}

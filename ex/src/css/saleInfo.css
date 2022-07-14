@@ -1,0 +1,181 @@
+.img-set {
+    /* position: relative; */
+    float: left;
+    border: 1px solid #cfcfcf;
+    width: 20%;
+    height: auto;
+    margin-left: 9%;
+}
+
+.img-set img {
+    height: 410px;
+}
+
+.main {
+    background: white;
+    border-radius: 25px;
+    margin: 5% auto;
+    /* margin-left: 3%; */
+    width: 90%;
+    text-align: center;
+    min-height: 500px;
+    padding-top: 3%;
+}
+.saleInfo{ 
+    position: relative; 
+    float: right; 
+    width: 65%;  
+    height: 400px;
+    margin-left: 5%;
+}
+
+.backBtn {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 0px black;
+    background-color: rgb(139, 173, 206);
+    color: white;
+    font-size: 500;
+    /* margin-left: 43%; */
+    float: right;
+    margin-right: 5%;
+}
+
+.backBtn:hover {
+    color: white;
+    background-color: rgb(40, 91, 143);}
+
+.saletitle {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2%;
+    /* text-align: left; */
+    border:none;
+}
+
+.saleInfo .price {
+    font-weight: 500;
+    font-size: 39px; 
+    margin-bottom: 4%; 
+    border: none;
+    text-align: left;
+}
+.saleInfo .price > p {
+    display: inline;
+    font-size: 20px;
+    margin-left: -20%;
+}
+
+.saleInfo .regDt {
+    margin-bottom: 2%;
+    text-align: left;
+    color: rgb(122, 122, 122);
+}
+.saleInfo .info{
+    margin-bottom: 1%;
+    height: 160px;
+    width: 1110px;
+    /* overflow-y: scroll; */
+    border:none;
+    line-height: 28px;
+
+}
+
+.saleInfo .btn-set { 
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.saleInfo .btn-set button{
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #cfcfcf;
+    font-size: 15px;
+    text-align: center;
+}
+.saleInfo .btn-set .a{
+    color: #eee; 
+    background: dimgrey;
+    text-align: center;
+}
+.saleInfo .btn-set .b{ 
+    margin: 0; 
+    color: #eee; 
+    background: rgb(96, 128, 189);
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px ) {
+    .main {
+        margin-top: 30%;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 15%;
+        width: 80%;
+        min-height: 700px;
+    }
+    .img-set {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 6%;
+        border: none;
+    }
+    .img-set img{
+        max-height: 250px;
+        width: 100%;
+    /* align-items: center; */
+    margin: 0 auto;
+    }
+    .saletitle {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .saleInfo {
+        width: 100%;
+    }
+    .saleInfo input {
+        width: 80%;
+        /* float: right; */
+        text-align: center;
+    }
+    .saleInfo .price {
+        width: 70%;
+    font-size: 20px;
+    margin-left: 10%;
+    /* margin: 0 auto 4%; */
+    text-align: center;
+    }
+    .saleInfo .price > p{
+        font-size: 15px;
+    }
+    .saleInfo hr {
+        display: none;
+    }
+
+    .saleInfo .regDt {
+        font-size: 13px;
+        text-align: center;
+    }
+    .saleInfo .info {
+        width: 100%;
+    height: 80%;
+    text-align: center;
+    }
+    .saleInfo .info textarea {
+        width: 80%;
+    }
+
+    .backBtn {
+        margin-right: 13%;
+    }
+    
+}

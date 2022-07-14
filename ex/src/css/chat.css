@@ -1,0 +1,166 @@
+
+.chatForm {
+    border: 1px solid #eee;
+    border-bottom: none;
+    margin: 2% 4% 0;
+    height: 750px;
+    background:white;
+    border-radius: 25px;
+}
+
+.chatForm .userInfo{
+    height: 75px;
+    border-bottom: 1px solid #eee;
+}
+
+.chatForm .userInfo .empty{
+    height: 75px;
+    width: 20.9%;
+    border-right: 1px solid #eee;
+    display: inline-block;
+}
+.chatForm .userInfo .saleUserInfo{
+    height: 75px;
+    display: inline-block;
+    width: 78%;
+    float: right;
+    position: relative;
+}
+.chatForm .userInfo .saleUserInfo .defaultImgIcon{
+    height: 50px;
+    width: 50px;
+    padding: 1%;
+    display: inline-block;
+}
+.chatForm .userInfo .saleUserInfo span{
+    position: relative;
+    top: -37%;
+}
+.chatForm .chatList {
+
+    height: 90%;
+    width: 20.9%;
+    display: inline-block;
+    overflow-y: scroll;
+}
+.chatForm .chatList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.chatForm .chatList ul li {
+    border-bottom: 1px solid #eee;
+    padding: 4%;
+}
+
+.chatForm .chatList ul li .defaultImgIcon{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.chatForm .chatList ul li span{
+    vertical-align: top;
+    margin-left: 12px;
+    color: dimgray;
+    display: inline-block;
+    width: 75%;
+}
+
+.chatForm .chatList ul li span .chatMessage{
+    font-size: 13px;
+    padding-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatForm .chatList ul li p{
+    display: inline;
+    font-size: 13px;
+    vertical-align: inherit;
+}
+
+.chatForm .chatting {
+    border-left: 1px solid #eee;
+    width: 79%;
+    height: 100%;
+    float: right;
+
+}
+
+.chatForm .chatting .chattingDate{
+    width: 65%;
+    color: gray;
+    font-size: 13px;
+    margin: 0px auto 20px;
+}
+.chatForm .chatting .chattingDate .chattingDateLine{
+    display: inline-block;
+    width: 260px;
+    height: 1px;
+    background: #c9c9c9;
+    vertical-align: middle;
+}
+
+.chatForm .chatting .chattingDate .chattingDateInfo{
+    width: 100px;
+    margin: 0 3%;
+    display: inline-block;
+}
+
+.chatForm .chatting .chattingIn{
+    margin: 5% 3% 0;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    overflow-y: scroll;
+}
+
+.chatForm .chatting .chattingIn .chattingOther .defaultImgIcon{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+
+}
+.chatForm .chatting .chattingIn .chattingMine span{
+    margin-bottom: 8px;
+    position: relative;
+    float: right;
+    border-radius: 20px 0 20px 21px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    background: rgb(139, 173, 206);
+    color: white;
+}
+
+.chatForm .chatting .chattingIn .chattingOther span{
+    position: relative;
+    border-radius: 0 20px 20px;
+    margin-left: 10px;
+    padding: 8px 20px;
+    background: #c9c9c9;
+}
+
+.chatForm .chatting .chattingBox{
+    position: fixed;
+    bottom: 1%;
+    width: 70%;
+}
+
+.chatForm .chatting .chattingBox textarea{ 
+    width: 100%;
+    height: 100px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    text-indent: 8px;
+    resize: none;
+    margin: 0 5%;
+    display: none;
+}
+
+@media screen and (max-width: 500px ) {
+    .chatForm{
+    margin-top: 10%;
+    }
+}

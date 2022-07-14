@@ -1,0 +1,42 @@
+
+.userinfo {
+    text-align: center;
+    margin: 5% 11%;
+    min-height: 200px;
+    padding: 3% 2%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.userinfo img{width: 250px;float: left;}
+
+.userinfo p {
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+}
+
+.userinfo .userInfos {
+    width: 40%;
+}
+
+@media screen and (max-width: 500px ) {
+    .userinfo {
+        text-align: center;
+        margin-top: 10%;
+
+    }
+    .userinfo img {
+        width: 80px;
+    }
+    .userInfos {
+        width: 53%;
+    /* float: right; */
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    }
+    .userInfos p {
+        width: 100%;
+    }
+}

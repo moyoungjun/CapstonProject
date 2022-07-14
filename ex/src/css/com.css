@@ -1,0 +1,614 @@
+/* @font-face {
+    font-family: "suncheonR";         
+    src: url("C:\test\test\ex\src\font\suncheonR.TTF");
+} */
+
+.src-top button {
+    margin: 1%;
+    margin-top: -1%;
+    outline: none;
+    width: 10%;
+    height: 2%;
+    padding: 10px 25px;
+    border: 2px solid rgb(143, 205, 255);
+    border-radius: 20px;
+    /* border-style: none; */
+    /* font-weight: 500; */
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.src-top a {
+    text-decoration: none;
+    color: black;
+}
+
+.src-top button:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+.logo {
+    margin-top: 0%;
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.logo a{
+    position: relative;
+    width: 18%;
+    text-decoration: none;
+    /* height: 1.5rem; */
+    /* line-height: 1rem; */
+    color: rgb(43, 95, 145);
+    font-size: 1.8vw;
+    font-weight: bold;
+    align-items: center; 
+    text-align: center;   
+}
+
+.logo a li {
+    /* background: white; */
+    padding: 0 0 0 6px;
+    border-radius: 25px;
+}
+
+.box1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.select-box {
+    text-align: center;
+}
+
+.submitButton{
+    position: absolute;
+    left: 75%;
+    top: -40%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    z-index: 10;
+}
+
+
+
+.grid {
+    background: white;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 6% 8%;
+    padding: 2% 0;
+    margin-top: 4%;
+    width: auto;
+}
+
+.grid img.landscape {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.grid-item{
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px grey;
+
+}
+
+.grid-item p {
+    /* text-align: center; */
+    width: 287px;
+    margin: 0 auto;
+}
+
+.sale-price {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2% 4% 4% 4%;
+    height: 22px;
+}
+
+.sale-price p {width: auto;}
+
+.sale-price .price {display: inline; float: left;}
+.sale-price .regDt {font-weight: 500; float: right;
+}
+
+.sale-title {
+    margin: 1% 2% 4%;
+}
+
+.sellbutton {
+    margin-left: 63%;
+    margin-top: -2.3%;
+    position: absolute;
+}
+
+
+.item {
+    padding: 5rem;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.item:first-child {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.list {
+    background: white;
+    border-radius: 25px;
+    min-height: 500px;
+    padding: 2%;
+    text-align: center;
+    line-height: 150%;
+    outline-style: none;
+    margin: 5%;
+    width: 70%;
+    margin-left: 15%;
+    /* position: absolute; */
+}
+
+.list-body:hover {
+    background-color: #f5f8fa;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.list-body:active {
+    background-color: white;
+    color: rgb(255, 255, 255);
+}
+
+.list tbody {
+    line-height: 40px;
+}
+
+
+.list th{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.list thead{
+    line-height: 50px;
+    background-color: #ffffff;
+    color: black;    
+}
+/* .menu {
+    background-color: rgb(139, 173, 206);
+    height: 3.5rem;
+    margin: 1%;
+}
+  
+.menu-item {
+    display: inline-block;
+    color: rgb(255, 251, 251);
+    font-size: 1.2rem;
+    font-style: bold;
+    line-height: 3.5rem;
+    width: 33.3333%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+  
+.menu-item:hover {
+    background-color: rgb(40, 91, 143);
+}
+  
+.menu-item:active,
+.menu-item.active {
+    background-color: white;
+} */
+
+.search_bar {
+    width: 60%;
+    height: 30%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 0.8rem;
+    padding: 3px;
+    text-align: center;
+    border: 3px solid rgb(96, 128, 189);
+}
+
+
+.wr-button {
+    margin-left: 63%;
+    margin-top: -8%;
+    position: absolute; 
+}
+
+
+
+.searchbu {
+    text-align: center;
+    font-family: 'SuncheonR';
+    margin: 2%;
+    float: left;
+}
+
+.searchwindow {
+    width: 46%;
+    height: 20%;
+    display:inline-block;
+    position: relative;
+    margin-left: 0%;
+    margin-top: -0.5%;
+}
+
+.textarea {
+    width: 10cm;
+    height: 3cm;
+    text-align: center;
+}
+
+.post {
+    text-align: center;
+    font-family: 'SuncheonR';
+    padding: 5%;
+}
+
+.post-view-row {
+    text-align: center;
+}
+
+.post-view-go-list-btn {
+    margin: 10%;
+    text-align: center;
+    font-family: 'SuncheonR';
+    float: right;
+}
+
+.comment-box {
+    text-align: center;
+    font-family: 'SuncheonR';
+    margin: 1%;
+}
+
+.comment-box1 {
+    font-family: 'SuncheonR';
+    font-size: 0.8rem;
+}
+
+.comment-box2 {
+    font-family: 'SuncheonR';
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.comment-text {
+    text-align: center;
+    font-family: 'SuncheonR';
+    width: 10cm;
+    height: 3cm;
+}
+
+.result-1{
+    text-align: center;
+    font-family: 'SuncheonR';
+}
+
+.pagination { 
+    display: flex; 
+    justify-content: center;
+    margin-left:0;
+    margin-bottom: 5%;
+
+} 
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+
+ul.pagination li { 
+    display: inline-block; 
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #e2e2e2; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1rem; 
+} 
+
+ul.pagination li:first-child{ 
+    border-radius: 5px 0 0 5px; 
+} 
+
+ul.pagination li:last-child{ 
+    border-radius: 0 5px 5px 0; 
+} 
+
+ul.pagination li a { 
+    text-decoration: none; 
+    color: #337ab7; 
+    font-size: 1rem; 
+} 
+
+ul.pagination li.active a { 
+    color: white; 
+} 
+
+ul.pagination li.active { 
+    background-color: #337ab7; 
+} 
+
+ul.pagination li a:hover, 
+ul.pagination li a.active { 
+    color: blue; 
+} 
+
+.page-selection { 
+    width: 48px; 
+    height: 30px; 
+    color: #337ab7; 
+}
+
+.readform {
+    text-align: center;
+    margin: 10%;
+}
+.readwriter {
+    width: 10%;
+    text-align: center;
+}
+.readtitle {
+    width: 30%;
+    text-align: center;
+}
+.readpost {
+    width: 50%;
+    text-align: center;
+}
+
+.saleProduct{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+.saleProduct img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.linkbuttons {
+    text-align: right;
+    margin-bottom: 2%;
+}
+
+.linkbutton {
+    text-align: center;
+    padding: 8px 20px;
+    border: 2px solid rgb(143, 205, 255);
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    
+}
+
+.link1{
+    margin: 1%;
+    transition: all 0.3s ease;
+}
+
+.link1:hover{
+    box-shadow: -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+.link2{
+    margin: 1%;
+    transition: all 0.3s ease;
+}
+.link2:hover {
+    box-shadow: -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+.link3{
+    margin: 1%;
+    transition: all 0.3s ease;
+}
+.link3:hover{
+    box-shadow: -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+.link4{
+    margin: 1%;
+    transition: all 0.3s ease;
+}
+.link4:hover{
+    box-shadow: -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+.link5{
+    margin: 1%;
+    transition: all 0.3s ease;
+}
+.link5:hover{
+    box-shadow: -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropmenu{
+    margin: 1%;
+    margin-top: 1%;
+    padding: 0px;
+    font-size: 18px;
+    /* position:relative; */
+    position: fixed;
+    z-index: 1000;
+}
+    
+.dropmenu li {
+    float: left;
+    margin: 1%;
+}
+    
+.dropmenu li a {
+    background-color: rgb(140, 173, 243);
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 5%;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    
+    text-decoration: none;
+
+}
+    
+.dropmenu li a:hover, .dropmenu ul li:hover a{
+    background-color: rgb(106, 148, 240);
+    color: #FFFFFF;
+}
+    
+    
+.dropmenu li ul{
+    background-color:rgb(140, 173, 243);
+    display: none;
+    height: auto;
+    border: 0px;
+    position: absolute;
+    z-index: 200;
+}
+    
+.dropmenu li:hover ul{
+    display: block;
+    border-radius: 20px;
+}
+    
+.dropmenu li li {
+    background-color: rgb(140, 173, 243);
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: auto;
+    width: 100px;
+    border-radius: 20px;
+}
+    
+.dropmenu li:hover li a{
+    background-color: rgb(140, 173, 243);
+}
+    
+.dropmenu li ul a{
+    display: block;
+    height: 50px;
+    font-size: 14px;
+    margin: 0px;
+    padding: auto;
+    text-align: center;
+}
+    
+.dropmenu li ul a:hover, .dropmenu li ul li:hover a{
+    background-color: rgb(106, 148, 240);
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
+    
+.dropmenu p {
+    clear: left;
+}
+
+
+
+@media screen and (max-width: 500px ) {
+
+    .linkbuttons {
+        margin-top: 5%;
+        margin-left: -10%;
+        margin-bottom: 5%;
+    }
+    .linkbuttons .link1{
+        display: none;
+    }
+    .linkbuttons .link2{
+        display: none;
+    }
+    .linkbuttons .link3{
+        display: none;
+    }
+    .logo {
+        margin-left: 10%;
+        align-items: center;
+    }
+    .logo a {
+        font-size: 17px;
+        width: 100%;
+        text-align: inherit;
+    }
+    .searchwindow {
+        margin-left: -40%;
+        width: 100%;
+    }
+    .sellbutton {
+        margin-top: -11%;
+        margin-left: 80%;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15%;
+        font-size: 15px;
+    }
+    .grid .sale-title {
+        margin-bottom: 10%;
+    }
+   
+    .grid .sale-writer {
+        margin-top: -25%;
+    }
+    .wr-button {
+        margin-top: -25%;
+        margin-left: 80%;
+    }
+    .list {
+        margin-top: 15%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 12px;
+        width: auto;
+    }
+}

@@ -1,0 +1,68 @@
+.content {margin: 0 10%;}
+img{width: 100%; display: block;}
+.main1-btn{    position: absolute;
+    top: 49%;
+    left: 79%;
+    border: none;
+    padding: 1.3% 2.4%;
+    font-weight: 700;
+    font-size: 1vw;}
+.main2-btn{position: absolute;
+    top: 49%;
+    left: 75%;
+    border: none;
+    padding: 1.3% 2.4%;
+    font-weight: 700;
+    font-size: 1vw;}
+.main3-btn{position: absolute;
+    top: 49%;
+    left: 75%;
+    border: none;
+    padding: 1.3% 2.4%;
+    font-weight: 700;
+    font-size: 1vw;}
+.div-main1, .div-main2, .div-main3{
+    position: relative;
+}
+.side-menu{
+    width: 8%;
+    position: fixed;
+    height: 90px;
+    bottom: 12%;
+    right: 1%;
+}
+
+li {list-style: none}
+.content .side-menu a{text-decoration-line: none; color: black; font-size: 16px}
+.content .side-menu li{text-decoration-line: none; border: 1px solid #ddd; text-align: center; padding: 10px 0;}
+.banner1{background: #d4f2fc;}
+.banner2{background: #fffbd7;}
+.banner3{background: #d4f8e0;}
+
+.mainpng{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+.mainimg p {
+    width: 100%;
+    font-size: 22px;
+    position: absolute;
+    z-index: 99;
+    color: white;
+    top: 80%;
+    text-align: center;
+}
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+} 
+
+.blink {
+    animation: blink-effect 1s step-end infinite;
+}
